@@ -25,6 +25,50 @@
     <main class="content-placeholder">
         <p>Selecione uma das matérias acima para navegar pelo projeto.</p>
     </main>
+    <section class="secao-robotica">
+    <div class="container-robotica">
+        <div class="topo-secao">
+            <span class="subtitulo">Laboratório de Robótica</span>
+            <h2>O Experimento do Disco de Newton</h2>
+            <p>Descubra como unimos a física óptica ao controle de motores usando o Arduino para desafiar a percepção visual.</p>
+        </div>
+
+        <div class="conteudo-robotica">
+            
+            <div class="card-visual">
+                <div class="disco-container">
+                    <div class="eixo-motor"></div>
+                    <div class="disco-newton"></div>
+                </div>
+                <div class="status-motor">
+                    <span class="led-status"></span> Motor DC: 255 RPM (Velocidade Máxima)
+                </div>
+            </div>
+
+            <div class="card-detalhes">
+                <div class="info-bloco">
+                    <h3>Como Funciona?</h3>
+                    <p>O Disco de Newton é um experimento que demonstra a composição da luz branca. Quando o círculo colorido gira em alta velocidade, as cores se misturam em nossa retina devido à <strong>persistência retiniana</strong>, fazendo o disco parecer branco (ou cinzento).</p>
+                </div>
+
+                <div class="info-bloco">
+                    <h3>Componentes Utilizados</h3>
+                    <ul class="lista-componentes">
+                        <li><strong>Arduino Uno:</strong> Responsável por processar o código e controlar a velocidade.</li>
+                        <li><strong>Motor DC:</strong> Garante a rotação necessária para alcançar o efeito visual.</li>
+                        <li><strong>Transistor & Potenciômetro:</strong> Para regular a corrente do motor com segurança e ajustar a velocidade.</li>
+                    </ul>
+                </div>
+
+                <div class="info-bloco">
+                    <h3>O que aprendemos em sala</h3>
+                    <p>Programamos o Arduino para aplicar modulação por largura de pulso (PWM). Com isso, conseguimos controlar o motor DC com precisão, aumentando a velocidade gradativamente até que as cores separadas sumissem, revelando a ilusão da luz branca.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
